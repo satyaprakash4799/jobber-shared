@@ -13,8 +13,8 @@ export {
   IReduxLogout,
   IAuthResponse,
   IAuthUser,
-} from './interfaces/auth.interface';
-export { IBuyerDocument } from './interfaces/buyer.interface';
+} from './auth.interface';
+export { IBuyerDocument } from './buyer.interface';
 export {
   IConversationDocument,
   IMessageDocument,
@@ -22,8 +22,8 @@ export {
   IChatSellerProps,
   IChatBuyerProps,
   IChatMessageProps,
-} from './interfaces/chat.interface';
-export { IEmailLocals } from './interfaces/email.interface';
+} from './chat.interface';
+export { IEmailLocals } from './email.interface';
 export {
   GigType,
   ICreateGig,
@@ -35,7 +35,7 @@ export {
   IGigViewReviewsProps,
   IGigInfo,
   IGigTopProps,
-} from './interfaces/gig.interface';
+} from './gig.interface';
 export {
   IOffer,
   IExtendedDelivery,
@@ -45,14 +45,14 @@ export {
   IOrderMessage,
   IOrderDocument,
   IOrderNotifcation,
-} from './interfaces/order.interface';
+} from './order.interface';
 export {
   IReviewMessageDetails,
   IRatingTypes,
   IReviewDocument,
   IRatingCategories,
   IRatingCategoryItem,
-} from './interfaces/review.interface';
+} from './review.interface';
 export {
   ISearchResult,
   IHitsTotal,
@@ -60,7 +60,7 @@ export {
   IQueryString,
   ITerm,
   IPaginateProps,
-} from './interfaces/search.interface';
+} from './search.interface';
 export {
   SellerType,
   ILanguage,
@@ -68,7 +68,7 @@ export {
   IEducation,
   ICertificate,
   ISellerDocument,
-} from './interfaces/seller.interface';
+} from './seller.interface';
 
 export { uploads, videoUpload } from './cloudinary-upload';
 export {
@@ -85,10 +85,10 @@ export {
 
 export { verifyGateRequest } from './gateway-middleware';
 export { winstonLogger } from './logger';
-// export {
-//   firstLetterUppercase,
-//   isDataURL,
-//   isEmail,
-//   lowerCase,
-//   toUpperCase,
-// } from './helpers';
+export {
+  firstLetterUppercase,
+  isDataURL,
+  isEmail,
+  lowerCase,
+  toUpperCase,
+} from './helpers';
