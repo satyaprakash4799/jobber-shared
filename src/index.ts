@@ -86,9 +86,9 @@ export {
 export { verifyGateRequest } from './gateway-middleware';
 export { winstonLogger } from './logger';
 // export {
-  firstLetterUppercase,
-  isDataURL,
-  isEmail,
-  lowerCase,
-  toUpperCase,
-} from './helpers';
+//   firstLetterUppercase,
+//   isDataURL,
+//   isEmail,
+//   lowerCase,
+//   toUpperCase,
+// } from './helpers';
